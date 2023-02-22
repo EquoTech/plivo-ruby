@@ -31,7 +31,8 @@ module Plivo
           total_rate: @total_rate,
           powerpack_id: @powerpack_id,
           units: @units,
-          requester_ip: @requester_ip
+          requester_ip: @requester_ip,
+          is_domestic: @is_domestic
         }.to_s
       end
     end
