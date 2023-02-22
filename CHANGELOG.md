@@ -1,4 +1,7 @@
 # Change Log
+## [4.37.0](https://github.com/plivo/plivo-ruby/tree/v4.37.0) (2022-02-22)
+**Adding new attribute - 'is_domestic' in Get Message and List Message APIs**
+- Add `is_domestic` to the response for the [list all messages API](https://www.plivo.com/docs/sms/api/message/list-all-messages/) and the [get message details API](https://www.plivo.com/docs/sms/api/message#retrieve-a-message)
 
 ## [4.36.0](https://github.com/plivo/plivo-ruby/tree/v4.36.0) (2022-01-25)
 **Adding new attribute - 'requester_ip' in Get Message and List Mssage APIs**
